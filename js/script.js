@@ -9,7 +9,7 @@ const titleClickHandler = function(event){
   const activeLinks = document.querySelectorAll('.titles a.active');
 
   for(let activeLink of activeLinks){
-  activeLink.classList.remove('active');
+    activeLink.classList.remove('active');
   }
   /* [IN PROGRESS] add class 'active' to the clicked link */
   console.log('clickedElement:', clickedElement);
@@ -28,7 +28,7 @@ const titleClickHandler = function(event){
   console.log(targetArticle);
   /* add class 'active' to the correct article */
   targetArticle.classList.add('active');
-}
+};
 
 const optArticleSelector = '.post',
   optTitleSelector = '.post-title',
