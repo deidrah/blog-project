@@ -37,6 +37,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-left: 10px;
+  -ms-flex-direction: row;
+      flex-direction: row;
 }
 
 .sidebar {
@@ -53,7 +55,7 @@ body {
   background: #fff;
   margin-right: 10px;
   padding: 40px;
-  border: 1px solid #444;
+  border: 2px dashed #f78fb3;
   border-radius: 5px;
 }
 
@@ -106,5 +108,16 @@ body {
 
 .post-tags p {
   margin: 0 10px 0 0;
+}
+
+/* Media queries */
+@media (max-width: 600px) {
+  .wrapper {
+    -ms-flex-direction: column !important;
+        flex-direction: column !important;
+  }
+  .wrapper aside, .wrapper section {
+    margin-top: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
