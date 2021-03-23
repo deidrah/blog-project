@@ -136,7 +136,7 @@ body {
   color: #235fe0;
 }
 
-.sidebar--right ul li {
+.sidebar--right .tags li {
   display: inline;
 }
 
