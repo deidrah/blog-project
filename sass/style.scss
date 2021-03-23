@@ -123,6 +123,14 @@ body {
   }
 }
 
+/* Tags */
+.tag-size-1 {font-size: 14px; color: rgb(77, 3, 77); }
+.tag-size-2 {font-size: 18px; color: rgb(23, 12, 184);}
+.tag-size-3 {font-size: 22px; color: rgb(212, 90, 147);}
+.tag-size-4 {font-size: 26px; color: rgb(201, 9, 9) ;}
+.tag-size-5 {font-size: 30px; color: rgb(35, 95, 224);}
+.sidebar--right ul li {display: inline;}
+
 /* Media queries */
 
 @media (max-width: 600px) {

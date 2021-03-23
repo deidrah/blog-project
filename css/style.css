@@ -110,6 +110,36 @@ body {
   margin: 0 10px 0 0;
 }
 
+/* Tags */
+.tag-size-1 {
+  font-size: 14px;
+  color: #4d034d;
+}
+
+.tag-size-2 {
+  font-size: 18px;
+  color: #170cb8;
+}
+
+.tag-size-3 {
+  font-size: 22px;
+  color: #d45a93;
+}
+
+.tag-size-4 {
+  font-size: 26px;
+  color: #c90909;
+}
+
+.tag-size-5 {
+  font-size: 30px;
+  color: #235fe0;
+}
+
+.sidebar--right ul li {
+  display: inline;
+}
+
 /* Media queries */
 @media (max-width: 600px) {
   .wrapper {
